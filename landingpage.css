@@ -1,0 +1,103 @@
+div {
+    font-family: arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: hsl(217, 54%, 11%)
+}
+
+.equilibrium-picture {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.header {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(240, 240, 240);
+    margin-left: 10px;
+}
+
+.message {
+    font-size: 16px;
+    color: rgb(180, 180, 180);
+    margin-bottom: 20px;
+    max-width: 300px;
+    margin-left: 10px;
+}
+
+.eth {
+    display: flex;
+    flex-direction: row;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ethereum-icon {
+    width: 15px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.eth-balance {
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+.clock-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.time-left {
+    font-weight: 600;
+    padding-right: 10px;
+    color: rgb(180, 180, 180);
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.end-text {
+    font-size: 14px;
+    color: rgb(180, 180, 180);
+}
